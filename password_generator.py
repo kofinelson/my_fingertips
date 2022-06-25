@@ -1,7 +1,7 @@
 # importing relevant modules
 import random
 
-print(""" --------- Random Password Generator --------- """)
+print("""\n --------- Random Password Generator --------- """)
 print("\n")
 
 # listing the characters for the password
@@ -14,7 +14,7 @@ len_of_password = int(
 # number of passwords the user would like to generate
 num_of_passwords = int(input("How many passwords would like to generate? "))
 
-print('\nhere are your passwords: ')
+print('\nHere are your passwords: ')
 
 for pswd in range(num_of_passwords):
     passwords = ""
