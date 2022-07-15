@@ -16,7 +16,7 @@ num_of_passwords = int(input("How many passwords would like to generate? "))
 
 print('\nHere are your passwords: ')
 
-
+# the password must have at least all the characters
 for pswd in range(num_of_passwords):
     passwords = ""
     for c in range(len_of_password):
