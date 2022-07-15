@@ -1,5 +1,4 @@
 print(" -------- Adding Numbers -------- ")
-print("\n")
 
 # require user to input two numbers
 user_input = input("Type any two numbers you would like to sum: ")
@@ -12,4 +11,4 @@ second_number = int(user_input[1])
 add_input = first_number + second_number
 
 
-print(f"\nThe sum of your numbers are: {add_input}")
+print(f"\nThe sum of your numbers is: {add_input}")
