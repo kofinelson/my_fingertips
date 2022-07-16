@@ -5,7 +5,10 @@ print("""\n --------- Random Password Generator --------- """)
 print("\n")
 
 # listing the characters for the password
-pass_characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789`~!@#$%^&*()-_+=[{]}|\?/.><,"
+caps_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+small_chars = "abcdefghijklmnopqrstuvwxyz"
+numbs = "0123456789"
+spec_chars = "`~!@#$%^&*()-_+=[{]}|\?/.><,"
 
 # length of password. The user would have to choose a string of 8 characters or more
 len_of_password = int(
