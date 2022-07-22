@@ -23,5 +23,8 @@ print('\nHere are your passwords: ')
 for pswd in range(num_of_passwords):
     passwords = ""
     for c in range(len_of_password):
+        if len_of_password < 8:
+            print(f"Password cannot be less than 8 characters")
+
         passwords += random.choice(pass_characters)
     print(passwords)
