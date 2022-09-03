@@ -19,7 +19,7 @@ def weather(city):
     print(location)
     print(time)
     print(info)
-    print(f'{weather}℃')
+    print(f'{weather}℉')
 
 
 city = input("Enter the name of any city: ")
